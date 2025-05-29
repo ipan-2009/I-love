@@ -1,21 +1,24 @@
-import math
-from turtle import *
-
-def hearta(k):
-    return 15*math.sin(k)**3
-
-def heartb(k):
-    return 12*math.cos(k)-5*\
-    math.cos(2*k)-2*\
-    math.cos(3*k)-\
-    math.cos(4*k)
-    
-speed(9000)
-bgcolor("black")
-
-for i in range(6000):
-    goto(hearta(i)*20,heartb(i)*20)
-    for j in range(5):
-        color("red")
-    goto(0,0)
-done()
+<!-- From Uiverse.io by Novaxlo --> 
+<div class="capybaraloader">
+  <div class="capybara">
+    <div class="capyhead">
+      <div class="capyear">
+        <div class="capyear2"></div>
+      </div>
+      <div class="capyear"></div>
+      <div class="capymouth">
+        <div class="capylips"></div>
+        <div class="capylips"></div>
+      </div>
+      <div class="capyeye"></div>
+      <div class="capyeye"></div>
+    </div>
+    <div class="capyleg"></div>
+    <div class="capyleg2"></div>
+    <div class="capyleg2"></div>
+    <div class="capy"></div>
+  </div>
+  <div class="loader">
+    <div class="loaderline"></div>
+  </div>
+</div>
